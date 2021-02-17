@@ -25,7 +25,7 @@ public class GlueCode2
 			String y=sh.rp.placementsresult();
 			if(y.equalsIgnoreCase(x))
 			{
-				System.out.println("Test passed")
+				System.out.println("Test passed");
 				sh.s.log("placemnet page test passed");
 				Assert.assertTrue(true);
 			}
